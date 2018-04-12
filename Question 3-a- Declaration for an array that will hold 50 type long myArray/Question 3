@@ -1,0 +1,100 @@
+Question 3(a)
+Declaration for an array that will hold 50
+type long myArray
+*/
+
+#include <stdio.h>
+
+main(){
+	long thisArray[50];
+	
+}
+
+
+
+
+Question 3(b)
+Assign the  number 123456 to the fiftyth element of the array myArray 
+*/
+
+#include <stdio.h>
+
+main(){
+	long thisArray[49]=123456;
+}
+
+
+
+
+
+
+Question 3(c)  
+What is the values of x when the following statement in complete? for (x = 0; x < 100; x++)
+
+*/
+
+#include <stdio.h>
+
+main(){
+	//The value of x when the statemrnt is complete is 100.
+}
+
+
+
+
+
+QUestion 3(d)
+What is the value of ctr when the following statement is compelte ?
+the value of ctr after execution of
+the statement
+*/
+
+#include <stdio.h>
+
+main(){
+	//The value of ctr when the statement os complete is 11. 
+}
+
+
+
+
+/*Question 3(e)*/
+/* while statement that counts from 0 to 100 by 3s*/
+
+
+main(){
+    
+    int cnt1=1;  /*cnt is the variable to count*/
+    
+    while(cnt1<=100){
+        printf("%d", cnt1);
+        cnt1 +=3;
+        getch();
+        }
+    }
+
+
+
+
+
+
+ Question 3(f)
+What is wrong with the following code fragment (MAXVALUES is not the problem !)
+    
+    for (counter = 1; counter < MAXVALUES; counter++ );
+    printf("\nCounter = %d", counter);
+
+Answer:
+    
+    
+    
+    Because the for loop has bee terminated with (;), the code after it will
+    always be executed separately from it
+
+*/
+
+#include <stdio.h>
+
+main(){
+
+}
