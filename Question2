@@ -1,0 +1,69 @@
+Question 2(a)
+
+The function do_it takes threee type char arguments char1, char2, char3 and returns
+a float to the calling program
+*/
+
+#ifndef DO_IT
+#define DO_IT
+
+float do_it(char char1, char char2, char char3);
+
+#endif
+
+
+
+
+Question 2(b)
+
+The function print_a_number() that takes a single type int argument and returns
+a type to the calling program
+*/
+
+#ifndef PRINT_A_NUMBER
+#define PRINT_A_NUMBER
+
+void print_a_number(int num);
+
+#endif
+
+
+
+
+
+Question 2(b)
+What's wrong with the following program?
+
+ #include <stdio.h>
+                    void print_msg( void );
+                    main(){
+                        print_msg("This is a message to print");
+                        return 0;
+                    }
+                    void print_msq( void )
+                    {
+                        puts("This is a message to print");
+                        return 0;
+                    }
+
+ANSWER
+The function print_msg() is not supposed to take any arguments but the main function calls it with
+a string argument.
+*/
+
+#include <stdio.h>
+void print_msg(void);
+main(){
+	print_msg("This is a message to print");
+	return 0;
+}
+void print_msg(void){
+	puts("This is a message to print");
+	return 0;
+}
+
+
+
+
+
+
